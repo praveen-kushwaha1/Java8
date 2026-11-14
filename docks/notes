@@ -1,0 +1,143 @@
+
+java-8-practical-learning/
+│
+├── pom.xml
+├── README.md
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── learning/
+│   │               └── java8/
+│   │
+│   │                   ├── p01_basics/
+│   │                   │   ├── LambdaExpression.java
+│   │                   │   ├── FunctionalInterfaceDemo.java
+│   │                   │   └── RunnableLambda.java
+│   │
+│   │                   ├── p02_functional_interfaces/
+│   │                   │   ├── PredicateDemo.java
+│   │                   │   ├── FunctionDemo.java
+│   │                   │   ├── ConsumerDemo.java
+│   │                   │   ├── SupplierDemo.java
+│   │                   │   ├── BiPredicateDemo.java
+│   │                   │   ├── BiFunctionDemo.java
+│   │                   │   ├── BiConsumerDemo.java
+│   │                   │   ├── UnaryOperatorDemo.java
+│   │                   │   └── BinaryOperatorDemo.java
+│   │
+│   │                   ├── p03_method_references/
+│   │                   │   ├── StaticMethodReference.java
+│   │                   │   ├── InstanceMethodReference.java
+│   │                   │   ├── ConstructorReference.java
+│   │                   │   └── ArbitraryObjectMethodReference.java
+│   │
+│   │                   ├── p04_stream_basics/
+│   │                   │   ├── StreamCreation.java
+│   │                   │   ├── FilterDemo.java
+│   │                   │   ├── MapDemo.java
+│   │                   │   ├── FlatMapDemo.java
+│   │                   │   ├── SortedDemo.java
+│   │                   │   ├── DistinctDemo.java
+│   │                   │   ├── LimitSkipDemo.java
+│   │                   │   └── PeekDemo.java
+│   │
+│   │                   ├── p05_stream_terminal_operations/
+│   │                   │   ├── CollectDemo.java
+│   │                   │   ├── ForEachDemo.java
+│   │                   │   ├── ReduceDemo.java
+│   │                   │   ├── CountDemo.java
+│   │                   │   ├── MinMaxDemo.java
+│   │                   │   ├── AnyMatchDemo.java
+│   │                   │   ├── AllMatchDemo.java
+│   │                   │   └── NoneMatchDemo.java
+│   │
+│   │                   ├── p06_collectors/
+│   │                   │   ├── ToListDemo.java
+│   │                   │   ├── ToSetDemo.java
+│   │                   │   ├── ToMapDemo.java
+│   │                   │   ├── GroupingByDemo.java
+│   │                   │   ├── PartitioningByDemo.java
+│   │                   │   ├── JoiningDemo.java
+│   │                   │   ├── CountingDemo.java
+│   │                   │   ├── SummingAveragingDemo.java
+│   │                   │   └── MaxByMinByDemo.java
+│   │
+│   │                   ├── p07_optional/
+│   │                   │   ├── OptionalCreation.java
+│   │                   │   ├── IsPresentDemo.java
+│   │                   │   ├── IfPresentDemo.java
+│   │                   │   ├── OrElseDemo.java
+│   │                   │   ├── OrElseGetDemo.java
+│   │                   │   ├── OrElseThrowDemo.java
+│   │                   │   ├── MapOptionalDemo.java
+│   │                   │   └── FlatMapOptionalDemo.java
+│   │
+│   │                   ├── p08_date_time_api/
+│   │                   │   ├── LocalDateDemo.java
+│   │                   │   ├── LocalTimeDemo.java
+│   │                   │   ├── LocalDateTimeDemo.java
+│   │                   │   ├── ZonedDateTimeDemo.java
+│   │                   │   ├── PeriodDemo.java
+│   │                   │   ├── DurationDemo.java
+│   │                   │   └── DateFormatterDemo.java
+│   │
+│   │                   ├── p09_default_static_methods/
+│   │                   │   ├── DefaultMethodDemo.java
+│   │                   │   ├── StaticMethodDemo.java
+│   │                   │   └── MultipleInheritanceDemo.java
+│   │
+│   │                   ├── p10_collection_enhancements/
+│   │                   │   ├── ForEachMethod.java
+│   │                   │   ├── RemoveIfDemo.java
+│   │                   │   ├── ReplaceAllDemo.java
+│   │                   │   ├── SortListDemo.java
+│   │                   │   └── MapEnhancementsDemo.java
+│   │
+│   │                   ├── p11_completable_future/
+│   │                   │   ├── SupplyAsyncDemo.java
+│   │                   │   ├── RunAsyncDemo.java
+│   │                   │   ├── ThenApplyDemo.java
+│   │                   │   ├── ThenComposeDemo.java
+│   │                   │   ├── ThenCombineDemo.java
+│   │                   │   ├── ExceptionHandlingDemo.java
+│   │                   │   └── AsyncExecutionDemo.java
+│   │
+│   │                   ├── p12_parallel_streams/
+│   │                   │   ├── ParallelStreamDemo.java
+│   │                   │   ├── SequentialVsParallel.java
+│   │                   │   ├── ForkJoinPoolDemo.java
+│   │                   │   └── PerformanceComparison.java
+│   │
+│   │                   ├── p13_practical_examples/
+│   │                   │   ├── EmployeeFiltering.java
+│   │                   │   ├── EmployeeSorting.java
+│   │                   │   ├── EmployeeGrouping.java
+│   │                   │   ├── EmployeeSalaryStatistics.java
+│   │                   │   ├── DuplicateElements.java
+│   │                   │   ├── FrequencyOfElements.java
+│   │                   │   ├── FindSecondHighest.java
+│   │                   │   ├── FlattenNestedList.java
+│   │                   │   └── ConvertListToMap.java
+│   │
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── learning/
+│                   └── java8/
+│                       └── Java8PracticeTest.java
+│
+└── notes/
+    ├── 01_Lambda_Expressions.md
+    ├── 02_Functional_Interfaces.md
+    ├── 03_Method_References.md
+    ├── 04_Stream_API.md
+    ├── 05_Collectors.md
+    ├── 06_Optional.md
+    ├── 07_Date_Time_API.md
+    ├── 08_Collection_Enhancements.md
+    ├── 09_CompletableFuture.md
+    ├── 10_Parallel_Streams.md
+    ├── 11_Java8_Interview_Questions.md
+    └── 12_Java8_Coding_Problems.md

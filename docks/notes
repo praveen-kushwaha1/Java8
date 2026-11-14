@@ -141,3 +141,88 @@ java-8-practical-learning/
     ├── 10_Parallel_Streams.md
     ├── 11_Java8_Interview_Questions.md
     └── 12_Java8_Coding_Problems.md
+
+
+comparable-comparator-learning/
+│
+├── pom.xml
+├── README.md
+│
+└── src/
+    ├── main/
+    │   └── java/
+    │       └── com/
+    │           └── learning/
+    │               └── sorting/
+    │
+    │                   ├── model/
+    │                   │   ├── Employee.java
+    │                   │   └── Student.java
+    │
+    │                   ├── p01_comparable/
+    │                   │   ├── ComparableBasicDemo.java
+    │                   │   ├── SortByIdDemo.java
+    │                   │   ├── SortByNameDemo.java
+    │                   │   ├── ReverseSortingDemo.java
+    │                   │   └── TreeSetComparableDemo.java
+    │
+    │                   ├── p02_comparator/
+    │                   │   ├── ComparatorBasicDemo.java
+    │                   │   ├── SortBySalaryDemo.java
+    │                   │   ├── SortByNameDemo.java
+    │                   │   ├── SortDescendingDemo.java
+    │                   │   ├── MultipleFieldSortingDemo.java
+    │                   │   ├── LambdaComparatorDemo.java
+    │                   │   ├── MethodReferenceDemo.java
+    │                   │   ├── NullHandlingDemo.java
+    │                   │   └── TreeSetComparatorDemo.java
+    │
+    │                   ├── p03_comparison/
+    │                   │   ├── ComparableVsComparatorDemo.java
+    │                   │   ├── CollectionsSortDemo.java
+    │                   │   ├── ListSortDemo.java
+    │                   │   └── ArraysSortDemo.java
+    │
+    │                   ├── p04_advanced/
+    │                   │   ├── ThenComparingDemo.java
+    │                   │   ├── CustomComparatorDemo.java
+    │                   │   ├── ComparatorReversedDemo.java
+    │                   │   └── ComparisonContractDemo.java
+    │
+    │                   ├── p05_employee_project/
+    │                   │   ├── EmployeeData.java
+    │                   │   ├── EmployeeSortingService.java
+    │                   │   └── EmployeeSortingApplication.java
+    │
+    │                   └── p06_interview/
+    │                       ├── ComparableInterviewQuestions.java
+    │                       ├── ComparatorInterviewQuestions.java
+    │                       └── SortingCodingProblems.java
+    │
+    └── test/
+        └── java/
+            └── com/
+                └── learning/
+                    └── sorting/
+                        └── EmployeeSortingTest.java
+
+└── notes/
+    ├── 01_Comparable.md
+    ├── 02_Comparator.md
+    ├── 03_Comparable_Vs_Comparator.md
+    ├── 04_Comparator_Java8.md
+    ├── 05_Interview_Questions.md
+    └── 06_Coding_Problems.md
+
+
+    Act as an expert technical writer and software engineering instructor. Create comprehensive, beautifully structured revision notes on the following topic: [INSERT YOUR TOPIC HERE].
+
+    Please structure the notes following this exact format:
+    1. **Overview & Motivation**: High-level introduction, why the feature/concept was introduced, and core problems it solves.
+    2. **Key Concepts & Code Examples**: Clear, concise explanations backed by practical, runnable code snippets with descriptive comments.
+    3. **Deep Dive / Edge Cases**: Important rules, common pitfalls, and conflict resolutions (if applicable).
+    4. **Summary Table**: A quick-reference comparison or rule table for fast revision.
+    5. **Interview Questions & Scenarios**: Top technical interview questions and tricky edge-case scenarios with explanations.
+    6. **Self-Assessment Check**: 3-4 multiple-choice practice questions with correct answers to test understanding.
+
+    Keep the explanations clear, professional, and optimized for rapid technical revision.

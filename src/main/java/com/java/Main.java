@@ -31,6 +31,9 @@ public class Main {
 
             java.util.function.Function<Integer, Integer> increment = a -> a + 1;
             System.out.println(increment.apply(5)); // Output: 6
+
+
+
         }
     }
 }
